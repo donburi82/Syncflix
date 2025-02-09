@@ -1,0 +1,114 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Avengers",
+      "cast": "Robert Downey Jr., Chris Evans, Scarlett Johansson, Mark Ruffalo, Chris Hemsworth, Jeremy Renner, Tom Hiddleston, Samuel L. Jackson",
+      "genre": "Action, Adventure, Sci-Fi",
+      "releaseDate": "April 25, 2012",
+      "duration": "143 minutes",
+      "rating": "PG-13",
+      "description": "Earth's mightiest heroes, including Iron Man, Captain America, Thor, and Hulk, team up to stop the mischievous Loki and his alien army from conquering Earth.",
+      "image": "https://syncflix.s3.us-east-1.amazonaws.com/thumbnail/1_default.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Oppenheimer",
+      "cast": "Cillian Murphy, Robert Downey Jr., Emily Blunt, Matt Damon, Florence Pugh, Kenneth Branagh, Rami Malek",
+      "genre": "Biography, Drama, History",
+      "releaseDate": "July 21, 2023",
+      "duration": "180 minutes",
+      "rating": "R",
+      "description": "A biographical drama about J. Robert Oppenheimer, the theoretical physicist who played a pivotal role in developing the atomic bomb during World War II.",
+      "image": "https://syncflix.s3.us-east-1.amazonaws.com/thumbnail/2_default.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Ocean’s Eleven",
+      "cast": "George Clooney, Brad Pitt, Matt Damon, Julia Roberts, Andy García, Don Cheadle",
+      "genre": "Crime, Thriller, Comedy",
+      "releaseDate": "December 7, 2001",
+      "duration": "116 minutes",
+      "rating": "PG-13",
+      "description": "A charismatic thief, Danny Ocean, assembles a team of con artists to pull off an elaborate heist on three Las Vegas casinos in a single night.",
+      "image": "https://syncflix.s3.us-east-1.amazonaws.com/thumbnail/3_default.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Dark Knight",
+      "cast": "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine, Gary Oldman, Morgan Freeman, Maggie Gyllenhaal",
+      "genre": "Action, Crime, Drama",
+      "releaseDate": "July 18, 2008",
+      "duration": "152 minutes",
+      "rating": "PG-13",
+      "description": "Batman faces his greatest challenge yet as the Joker unleashes chaos upon Gotham, forcing him to confront moral dilemmas and the cost of being a hero.",
+      "image": "https://syncflix.s3.us-east-1.amazonaws.com/thumbnail/4_default.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Avengers: Endgame",
+      "cast": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Scarlett Johansson, Chris Hemsworth, Jeremy Renner, Paul Rudd, Brie Larson, Josh Brolin",
+      "genre": "Action, Adventure, Sci-Fi",
+      "releaseDate": "April 26, 2019",
+      "duration": "181 minutes",
+      "rating": "PG-13",
+      "description": "The surviving Avengers embark on a desperate mission to reverse Thanos' devastating snap and restore balance to the universe.",
+      "image": "https://syncflix.s3.us-east-1.amazonaws.com/thumbnail/5_default.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Inception",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Tom Hardy, Ellen Page, Ken Watanabe, Cillian Murphy, Michael Caine, Marion Cotillard",
+      "genre": "Sci-Fi, Action, Thriller",
+      "releaseDate": "July 16, 2010",
+      "duration": "148 minutes",
+      "rating": "PG-13",
+      "description": "A skilled thief who specializes in entering people's dreams to steal secrets is given a seemingly impossible task: implanting an idea into a target's mind.",
+      "image": "https://syncflix.s3.us-east-1.amazonaws.com/thumbnail/6_default.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Prestige",
+      "cast": "Christian Bale, Hugh Jackman, Michael Caine, Scarlett Johansson, Rebecca Hall, Andy Serkis, David Bowie",
+      "genre": "Drama, Mystery, Sci-Fi",
+      "releaseDate": "October 20, 2006",
+      "duration": "130 minutes",
+      "rating": "PG-13",
+      "description": "Two rival magicians engage in an escalating battle of wits and deception in their quest to create the ultimate illusion.",
+      "image": "https://syncflix.s3.us-east-1.amazonaws.com/thumbnail/7_default.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Iron Man",
+      "cast": "Robert Downey Jr., Gwyneth Paltrow, Jeff Bridges, Terrence Howard, Jon Favreau, Shaun Toub",
+      "genre": "Action, Adventure, Sci-Fi",
+      "releaseDate": "May 2, 2008",
+      "duration": "126 minutes",
+      "rating": "PG-13",
+      "description": "Billionaire genius Tony Stark builds a high-tech armored suit after being held captive and becomes the superhero Iron Man.",
+      "image": "https://syncflix.s3.us-east-1.amazonaws.com/thumbnail/8_default.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Dunkirk",
+      "cast": "Fionn Whitehead, Tom Hardy, Kenneth Branagh, Cillian Murphy, Mark Rylance, Harry Styles",
+      "genre": "War, Drama, Thriller",
+      "releaseDate": "July 21, 2017",
+      "duration": "106 minutes",
+      "rating": "PG-13",
+      "description": "A gripping World War II drama that follows the harrowing evacuation of Allied soldiers from the beaches of Dunkirk as they face overwhelming enemy forces.",
+      "image": "https://syncflix.s3.us-east-1.amazonaws.com/thumbnail/9_default.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Tenet",
+      "cast": "John David Washington, Robert Pattinson, Elizabeth Debicki, Kenneth Branagh, Michael Caine, Dimple Kapadia",
+      "genre": "Action, Sci-Fi, Thriller",
+      "releaseDate": "August 26, 2020",
+      "duration": "150 minutes",
+      "rating": "PG-13",
+      "description": "A secret agent embarks on a time-bending mission to prevent World War III, unraveling the mysterious technology of 'inversion.'",
+      "image": "https://syncflix.s3.us-east-1.amazonaws.com/thumbnail/10_default.jpg"
+    }
+  ]
+}
