@@ -34,14 +34,15 @@ router.get("/", async (req, res) => {
             }
       
             return {
-                _id: movie._id,
+                id: movie._id,
                 title: movie.title,
-                cast: movie.cast,
-                date: movie.date,
+                cast: movie.cast.join(", "),
+                genre: movie.genre.join(", "),
+                releaseDate: movie.date,
                 duration: movie.duration,
                 rating: movie.rating,
                 description: movie.description,
-                posterUrl: `${process.env.S3URL}/${selectedPoster}`
+                image: `${process.env.S3URL}/${selectedPoster}`
             };
         });
 

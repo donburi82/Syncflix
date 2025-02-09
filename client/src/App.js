@@ -66,7 +66,7 @@ function App() {
             <MovieModal
               open={selectedID !== -1}
               setSelectedID={setSelectedID}
-              movie={movies[selectedID-1]}
+              movie={movies["data"].find(movie => movie.id===selectedID)}
             />
         </ThemeProvider>
     </div>
