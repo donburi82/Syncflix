@@ -15,46 +15,54 @@ const darkTheme = createTheme({
   },
 });
 
+const userID = "67a7d3ad98407ce521f4002b";
+
 const useMovies = () => {
+  const url = "http://localhost:5050/movies?userId=" + userID;
+
   const [movies, setMovies] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchMovies = async () => {
+      
       try {
-        const response = await fetch('/movies.json');
+        const response = await fetch(url);
         
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
 
         const data = await response.json();
-        setMovies(data.movies);
+        setMovies(data);
       } catch (error) {
         console.error('Error loading movies:', error);
+      } finally {
+        setLoading(false);
       }
     };
 
     fetchMovies();
   }, []);
 
-  return movies;
+  return {movies, loading};
 };
 
 function App() {
-
-  // const [selectedMovie, setSelectedMovie] = useState(null); // display modal if user clicks movie info
-  // setSelectedMovie(movie);
-
-  const movies = useMovies();
+  const {movies, loading} = useMovies();
   const [selectedID, setSelectedID] = useState(-1)
+
+  if (loading) return <p>Loading Movies...</p>
   
+  console.log(movies)
+
   return (
-    <div className="App">
+      <div className="App">
         <ThemeProvider theme={darkTheme}>
           <CssBaseline />
             <Navbar />
-            <HeroSection movie={movies[0]} setSelectedID={setSelectedID}/>
-            <MovieSection movies={movies} setSelectedID={setSelectedID}/>
+            <HeroSection movie={movies["data"][0]} setSelectedID={setSelectedID}/>
+            <MovieSection movies={movies["data"]} setSelectedID={setSelectedID}/>
             <MovieModal
               open={selectedID !== -1}
               setSelectedID={setSelectedID}
