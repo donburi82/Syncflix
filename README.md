@@ -1,3 +1,3 @@
-# DineWise
+# Syncflix
 
 HackNYU 2025
